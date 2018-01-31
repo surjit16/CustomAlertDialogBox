@@ -3,11 +3,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
     tools:context="com.example.surjit.customalertdialogbox.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:onClick="alertDialogBoxSimple"
+        android:text="@string/alert_dialog_simple" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="alertDialogBoxSelectItems"
+        android:text="@string/alert_dialog_select_items" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="alertDialogBoxMultiChoiceItems"
+        android:text="@string/alert_dialog_multi_choice_items" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="alertDialogBoxSingleChoiceItems"
+        android:text="@string/alert_dialog_single_choice_items" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="customAlertDialogBoxEditTextOnly"
+        android:text="@string/custom_alert_dialog_box_edit_text" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="customAlertDialogBoxEditTextButton"
+        android:text="@string/custom_alert_edit_text_button" />
 
 </LinearLayout>

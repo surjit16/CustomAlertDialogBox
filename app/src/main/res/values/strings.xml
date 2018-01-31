@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Custom Alert Dialog Box</string>
+    <string name="alert_dialog_single_choice_items">Alert Dialog Single Choice Items</string>
+    <string name="alert_dialog_multi_choice_items">Alert Dialog MultiChoice Items</string>
+    <string name="alert_dialog_select_items">Alert Dialog Select Items</string>
+    <string name="alert_dialog_simple">Alert Dialog Simple</string>
+
+    <string name="custom_alert_dialog_box_edit_text">Custom Alert with Edit Text Only</string>
+    <string name="custom_alert_edit_text_button">Custom Alert with Edit Text And Buttons</string>
+    <string name="name">name</string>
+    <string name="choose_username">choose username</string>
+    <string name="enter_email">enter email</string>
+    <string name="choose_password">choose password</string>
+
+    <string-array name="mutichoice_opt">
+        <item>Surjit Singh</item>
+        <item>Jatinder Sagar</item>
+        <item>Jatinder Kumar</item>
+        <item>Abhishek</item>
+    </string-array>
+
 </resources>
