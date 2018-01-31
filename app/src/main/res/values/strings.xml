@@ -12,11 +12,4 @@
     <string name="enter_email">enter email</string>
     <string name="choose_password">choose password</string>
 
-    <string-array name="mutichoice_opt">
-        <item>Surjit Singh</item>
-        <item>Jatinder Sagar</item>
-        <item>Jatinder Kumar</item>
-        <item>Abhishek</item>
-    </string-array>
-
 </resources>
